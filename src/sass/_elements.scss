@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  margin: 2% auto;
+  li {
+    list-style-type: none;
+    margin-left: -4px;
+    padding: 5px;
+  }
+
+  input {
+    margin: 3px;
+    padding: 3px;
+  }
+
+  button {
+    margin: 3px;
+    padding: 1px;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 5px;
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+  p {
+    margin: 3px;
+  }
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
